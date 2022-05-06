@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(185, 219, 219);
+  }
+
+ h1 {
+     font-family: 'Beau Rivage', cursive;
+     font-size: 50px;
+ }
+
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: auto;
+  }
+  #panda {
+    width: 480px;
+    height: 450px;
+    border-radius: 50%;
+  }
+  .description {
+    font-size: xx-large;
+    width: 650px;
+  }
+  #statement {
+    font-size: xx-large;
+    font-style: italic;
+    padding: 20px;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 50%;
+  }
+  #number {
+    text-align: center;
+  }
+  #panda-logo {
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+  }
+
+  label {
+    font-family: "Fira Sans", sans-serif;
+}
